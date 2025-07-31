@@ -1,8 +1,28 @@
 body {
     margin: 0;
+    background-color: orange;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.score {
+    background-color: white;
+    font-size: 40px;
+    padding: 5px;
+    border: dashed;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.container button {
+    border-radius: 16px;
+}
+
+#reset {
+    padding-top: 10px;
 }
